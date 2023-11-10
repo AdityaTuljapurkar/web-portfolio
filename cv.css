@@ -1,0 +1,266 @@
+*{ 
+    /* background-color: black;*/
+    color: rgba(230, 219, 219, 0.87);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 5em;
+}
+:root{
+    --nav:  rgb(15, 15, 15);
+    --name:  rgb(53, 53, 53);
+}
+body{
+    background-color: black;
+}
+#navbar{
+    height: 3em;
+    /* background-color: gray; */
+    /* border: 2px solid white; */
+    list-style: none;
+    background-color:var(--nav);
+    
+    display: flex;
+    
+}
+#navbar li{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto ;
+    background-color: var(--nav);
+}
+#navbar li a{
+    color:rgb(255, 255, 255) ;
+    text-decoration: none;
+    background-color: var(--nav);
+
+}
+#navbar li a:hover{
+    /* color: black; */
+    font-weight:bolder ;
+    background-color:var(--nav);
+font-family: 'Noto Sans', sans-serif;
+text-decoration: none;
+/* background-color: darkgray; */
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    
+    /* border: 2px solid yellow; */
+    height:9.5em;
+    background-color:var(--name);
+   border-bottom: 3px solid whitesmoke; 
+
+
+}
+#one{
+   
+    text-align: center;
+    padding-top: 14px;
+    font-family: 'Poppins', sans-serif;
+    /* align-items:center; */
+    
+}
+#photo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 8.5em;
+  left: 37.5em;
+  
+} 
+ #photo img{
+    background-color: rgb(11, 92, 167);
+    border-radius: 90px;
+    border: 2px solid whitesmoke;
+    padding: 8px;
+ }
+ .About{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+margin: 5em 0em 3em 13em;
+font-size: 1.5em;
+}
+.About h1{
+}
+.Skills{
+    position: relative;
+    /* border: 2px solid aqua; */
+    /* display: flex;
+    flex-direction: row; */
+    margin: 2px;
+}
+.Skills h1{
+    margin-left:42%  ;
+
+
+    /* font-family: 'Lato', sans-serif; */
+}
+.Skillimg{
+    width: 33%;   
+    
+} 
+#servhead{
+    display: flex;
+    /* border: 3px solid aqua; */
+    align-items: center;
+    justify-content: center;
+}
+#servhead h1{
+    /* font-size: 5em; */
+    
+}
+.Sone{
+display:flex;
+justify-content:center;
+}
+.cpic{
+    /* border: 3px solid yellow; */
+    /* padding: 3px 3px ; */
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    height:16em;
+    align-items: center;
+}
+.Stwo{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.jpic{
+    /* padding; */
+    /* border: 3px solid yellow; */
+    /* padding: 3px 3px ; */
+    justify-content:center;
+    align-items: center;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    height:16em;
+}
+#clang{
+    background-color: var(--name);
+}
+#javalang{
+    background-color: var(--name);
+}
+#htmllogo{
+    background-color: var(--name);
+}
+.Education{
+    margin: 7em 3em 3em 0em;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+
+}
+#tenth{
+    padding: 7px;
+    width: 45%;
+    height: auto;
+    margin: 20px 30px;
+    border: 2px solid blueviolet;
+    /* float: left; */
+    box-shadow:10px 10px 10px blueviolet;
+}
+#tewelveth{
+    padding: 7px;
+    border: 2px solid blueviolet;
+    box-shadow:10px 10px 10px blueviolet;
+    width: 45%;
+    margin: -2em 0px 0px 45em
+    /* float: right; */
+}
+#ug{
+    padding: 7px;
+    border: 2px solid blueviolet;
+    box-shadow:10px 10px 10px blueviolet;
+    margin: 20px 30px;
+    width: 45%;
+
+/* float: left; */
+}
+.Education h3{
+    padding: 3px 0px 9px 0px;
+    font-family: 'Open Sans', sans-serif;
+    /* text-decoration: none; */
+    /* border-bottom:1px solid blueviolet ; */
+}
+#achivhead{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Achivements{
+    height: auto;
+    width: 58em;
+    display: flex;
+    margin: 4px;
+    border: 2px solid aqua;
+    padding: 1em;
+    padding-left: 2em;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 9em;
+    box-shadow: 5px 5px 5px aqua;
+    /* text-align: center; */
+}
+.Achivements li{
+    padding: 0.5em;
+    list-style: square;
+    font-size: 1.5em;
+    font-family: 'Sometype Mono', monospace;
+}
+.Contact button{
+    background-color: black;
+    color: wheat;
+    padding: 0.5em;
+    border-radius: 3em;
+    border: 2px solid purple;
+    margin: 1em;
+    
+}
+.Contact form{
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    border: 2px solid purple;
+    border-radius: 3em;
+    width: 58em;
+    box-shadow: 5px 5px 5px purple;
+    margin-left: 9em;
+}
+.Contact button:hover{
+ background-color: grey;
+ cursor: pointer;
+ color: black;
+}
+.contactimg img{
+    /* display: flex ; */
+    padding: 4px;
+    margin: 5px;
+    /* border: 2px solid red; */
+    /* flex-direction: row; */
+}
+.contactimg img :hover{
+    cursor: pointer;
+}
+.Contact{
+    margin:4em 1em ;
+}
+.Contact h1{
+    text-align: center;
+}
